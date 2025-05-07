@@ -1,0 +1,13 @@
+{
+  "name": "live-poll-battle",
+  "version": "1.0.0",
+  "description": "Real-time poll application",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

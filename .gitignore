@@ -29,4 +29,9 @@ logs
 .idea/
 .vscode/
 *.swp
-*.swo 
+*.swo
+
+# Ensure server files are not ignored
+!server/index.js
+!server/package.json
+!server/package-lock.json 
